@@ -379,7 +379,7 @@ if(ver[0]=="3"):
     #Redirecting
     etree._serialize_xml = _serialize_xml
 
-if(ver[0]=="2"):
+if(ver[0]=="2.4"):
 #For Python 2.4 there is no serializer. Changing to my method.
     def _escape_attrib(text, encoding=None, replace=etree.string.replace):
         # escape attribute value
